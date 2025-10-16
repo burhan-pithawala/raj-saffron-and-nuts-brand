@@ -1,0 +1,57 @@
+INSTRUCTIONS FOR ADDING YOUR IMAGES
+=====================================
+
+Please add your images to this PUBLIC folder with the following names:
+
+REQUIRED IMAGES:
+---------------
+
+1. logo.png (or logo.jpg)
+   - Your Raj Saffron & Nuts logo
+   - Should be the first image you provided
+   - Recommended: PNG with transparent background
+
+2. hero.jpg
+   - Main hero section image (top of the homepage)
+   - Use your best product photo
+   - Suggestion: Use one of your saffron or premium nut photos
+
+3. about.jpg
+   - About section image
+   - Another high-quality product or brand image
+
+4. product1.jpg - Premium Kashmiri Saffron
+5. product2.jpg - Honey Roasted Cashews  
+6. product3.jpg - Salted Almonds
+7. product4.jpg - Spicy Peri Peri Cashews
+8. product5.jpg - Caramelized Walnuts
+9. product6.jpg - Mixed Dry Fruits
+
+HOW TO ADD IMAGES:
+-----------------
+
+1. Take the logo image you provided → rename it to "logo.png"
+2. Take your 10 product images → choose which ones to use for:
+   - hero.jpg (best showcase photo)
+   - about.jpg (another great photo)
+   - product1.jpg through product6.jpg (your 6 main products)
+
+3. Copy all these renamed images into this "public" folder
+
+4. Delete this IMAGE_INSTRUCTIONS.txt file (optional)
+
+5. Run "npm run dev" and open the website!
+
+TIPS:
+-----
+- File names are case-sensitive (use lowercase)
+- Supported formats: .jpg, .jpeg, .png
+- Recommended image sizes:
+  * logo: 200x200px or similar
+  * hero: 1200x800px (landscape)
+  * about: 800x600px
+  * products: 800x800px (square) or 800x600px
+
+NEED HELP?
+---------
+Check the README.md file in the parent folder for detailed instructions.
