@@ -24,7 +24,7 @@ const Navbar = () => {
         <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
             <div className="nav-container">
                 <div className="logo-container">
-                    <img src="/images/logo.png" alt="Raj Saffron & Nuts" className="logo" />
+                    <img src="images/logo.png" alt="Raj Saffron & Nuts" className="logo" />
                     <span className="brand-name" style={{display: 'block'}}>Raj Saffron & Nuts</span>
                 </div>
                 <ul className={`nav-menu ${menuOpen ? 'active' : ''}`}>
