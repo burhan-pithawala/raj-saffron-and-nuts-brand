@@ -4,7 +4,7 @@ const About = () => {
             <div className="about-container">
                 <div className="about-image-container">
                     <img 
-                        src="/images/Gemini_Generated_Image_f4kw5kf4kw5kf4kw.png" 
+                        src="images/Gemini_Generated_Image_f4kw5kf4kw5kf4kw.png" 
                         alt="About Raj Saffron & Nuts" 
                         className="about-image"
                     />
