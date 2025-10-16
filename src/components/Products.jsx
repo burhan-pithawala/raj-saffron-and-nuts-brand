@@ -76,7 +76,7 @@ const Products = () => {
                                 <p className="product-description">{product.description}</p>
                                 <div className="product-footer">
                                     <span className="product-price">{product.price}</span>
-                                    <button className="btn btn-primary btn-small">Buy Now</button>
+                                    <a href="https://noon.com" target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-small">Buy Now</a>
                                 </div>
                             </div>
                         </div>
