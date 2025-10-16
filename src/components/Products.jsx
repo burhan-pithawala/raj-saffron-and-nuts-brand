@@ -76,7 +76,7 @@ const Products = () => {
                                 <p className="product-description">{product.description}</p>
                                 <div className="product-footer">
                                     <span className="product-price">{product.price}</span>
-                                    <button className="btn btn-primary btn-small">Add to Cart</button>
+                                    <button className="btn btn-primary btn-small">Buy Now</button>
                                 </div>
                             </div>
                         </div>

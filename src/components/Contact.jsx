@@ -8,7 +8,7 @@ const Contact = () => {
                     <div className="contact-item">
                         <div className="contact-icon">📞</div>
                         <div className="contact-label">Phone</div>
-                        <div className="contact-value">+91 98765 43210</div>
+                        <div className="contact-value">+971 50 297 8626</div>
                     </div>
                     <div className="contact-item">
                         <div className="contact-icon">✉️</div>
@@ -18,7 +18,7 @@ const Contact = () => {
                     <div className="contact-item">
                         <div className="contact-icon">📍</div>
                         <div className="contact-label">Location</div>
-                        <div className="contact-value">India</div>
+                        <div className="contact-value">Dubai</div>
                     </div>
                 </div>
                 <button className="btn btn-primary" style={{marginTop: '2rem'}}>Send Message</button>

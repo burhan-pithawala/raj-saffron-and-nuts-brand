@@ -1,3 +1,5 @@
+import { FaInstagram, FaWhatsapp, FaStore } from 'react-icons/fa'
+
 const Footer = () => {
     const scrollToSection = (id) => {
         const element = document.getElementById(id)
@@ -36,12 +38,23 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div className="footer-section">
-                        <h4>Information</h4>
-                        <ul className="footer-links">
-                            <li><span>Privacy Policy</span></li>
-                            <li><span>Terms & Conditions</span></li>
-                            <li><span>Shipping Info</span></li>
-                            <li><span>Return Policy</span></li>
+                        <h4>Find Us</h4>
+                        <ul className="footer-links social-links">
+                            <li>
+                                <a href="https://www.instagram.com/rajsaffronnuts/" target="_blank" rel="noopener noreferrer">
+                                    <FaInstagram className="social-icon" /> Instagram
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://wa.me/+971502978626" target="_blank" rel="noopener noreferrer">
+                                    <FaWhatsapp className="social-icon" /> WhatsApp
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://noon.com" target="_blank" rel="noopener noreferrer">
+                                    <FaStore className="social-icon" /> Noon
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>
