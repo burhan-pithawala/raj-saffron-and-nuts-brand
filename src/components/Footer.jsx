@@ -22,13 +22,13 @@ const Footer = () => {
                     <div className="footer-section">
                         <h4>Quick Links</h4>
                         <ul className="footer-links">
-                            <li><span onClick={() => scrollToSection('home')}>Home</span></li>
-                            <li><span onClick={() => scrollToSection('products')}>Products</span></li>
-                            <li><span onClick={() => scrollToSection('about')}>About Us</span></li>
-                            <li><span onClick={() => scrollToSection('contact')}>Contact</span></li>
+                            <a><li><span onClick={() => scrollToSection('home')}>Home</span></li></a>
+                            <a><li><span onClick={() => scrollToSection('products')}>Products</span></li></a>
+                            <a><li><span onClick={() => scrollToSection('about')}>About Us</span></li></a>
+                            <a><li><span onClick={() => scrollToSection('contact')}>Contact</span></li></a>
                         </ul>
                     </div>
-                    <div className="footer-section">
+                    {/* <div className="footer-section">
                         <h4>Products</h4>
                         <ul className="footer-links">
                             <li><span onClick={() => scrollToSection('products')}>Saffron</span></li>
@@ -36,7 +36,7 @@ const Footer = () => {
                             <li><span onClick={() => scrollToSection('products')}>Almonds</span></li>
                             <li><span onClick={() => scrollToSection('products')}>Mixed Nuts</span></li>
                         </ul>
-                    </div>
+                    </div> */}
                     <div className="footer-section">
                         <h4>Find Us</h4>
                         <ul className="footer-links social-links">
@@ -51,10 +51,19 @@ const Footer = () => {
                                 </a>
                             </li>
                             <li>
-                                <a href="https://noon.com" target="_blank" rel="noopener noreferrer">
+                                <a href="https://www.noon.com/uae-en/p-360837/" target="_blank" rel="noopener noreferrer">
                                     <FaStore className="social-icon" /> Noon
                                 </a>
                             </li>
+                        </ul>
+                    </div>
+                    <div className="footer-section">
+                        <h4>Information</h4>
+                        <ul className="footer-links">
+                            <a><li><span>Privacy Policy</span></li></a>
+                            <a><li><span>Terms & Conditions</span></li></a>
+                            {/* <li><span>Shipping Info</span></li> */}
+                            {/* <li><span>Return Policy</span></li> */}
                         </ul>
                     </div>
                 </div>

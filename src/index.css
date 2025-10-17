@@ -238,7 +238,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Features Section */
 .features {
-    padding: 6rem 2rem;
+    padding: 3rem 2rem 6rem 2rem;
     background: white;
 }
 
@@ -276,7 +276,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .feature-card {
     text-align: center;
-    padding: 2.5rem;
+    padding: 0.5rem;
     border-radius: 15px;
     transition: all 0.3s ease;
 }
@@ -344,7 +344,7 @@ h1, h2, h3, h4, h5, h6 {
 .product-image {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
     transition: transform 0.5s ease;
 }
 
@@ -497,9 +497,10 @@ h1, h2, h3, h4, h5, h6 {
 .contact-info {
     display: flex;
     justify-content: center;
-    gap: 3rem;
+    gap: 4rem;
     flex-wrap: wrap;
     margin-top: 3rem;
+    /* margin-left: 2.5rem; */
 }
 
 .contact-item {
@@ -507,6 +508,7 @@ h1, h2, h3, h4, h5, h6 {
     flex-direction: column;
     align-items: center;
     gap: 0.5rem;
+    padding: 0rem 0rem;
 }
 
 .contact-icon {

@@ -2,57 +2,63 @@ const Products = () => {
     const products = [
         {
             id: 1,
-            name: 'Premium Kashmiri Saffron',
+            name: 'The Velvet Ritual Box',
             category: 'Saffron',
-            description: 'The finest Grade A Kashmiri saffron threads with intense aroma and deep color.',
-            price: '₹2,499',
-            image: '/images/Gemini_Generated_Image_f4kw5kf4kw5kf4kw.png',
-            badge: 'Best Seller'
+            description: 'A celebration of heritage wrapped in elegance. This opulent red velvet box, adorned with a gleaming gold clasp, unveils a curated ensemble of ceremonial treasures,each piece crafted to honor tradition and elevate gifting. This box is more than a product,it’s a moment of connection, beautifully preserved.',
+            price: '',
+            image: '/images/p1-alt.png',
+            badge: 'Best Seller',
+            noonLink: 'https://www.noon.com/uae-en/premium-maroon-color-velvet-saffron-gift-box-1g-super-negin-saffron-with-mortar-luxury-gift-box-perfect-for-diwali-eid-special-occasions/Z7728BCE473A69801DFC9Z/p/?o=fc1235e595ad9a1a'
         },
         {
             id: 2,
-            name: 'Honey Roasted Cashews',
-            category: 'Flavored Nuts',
-            description: 'Premium cashews roasted to perfection with natural honey coating.',
-            price: '₹599',
-            image: '/images/Gemini_Generated_Image_hnaxxjhnaxxjhnax.png',
-            badge: 'Popular'
+            name: 'Saffron & Cardamom Luxe Infusion Jar',
+            category: 'Saffron',
+            description: 'This exquisite jar, sculpted like a perfume bottle, holds two of the world’s most treasured spices, vivid red saffron threads layered beneath whole green cardamom pods.',
+            price: '',
+            image: '/images/p2-alt.png',
+            badge: 'Popular',
+            noonLink: 'https://www.noon.com/uae-en/10g-super-negin-iranian-saffron-pure-premium-quality-threads-with-queen-of-spices-premium-cardamom-in-elegant-crystal-design-decorative-jar/ZE7C80EDBA7C2F9AE66F5Z/p/?o=f713f2ec8c2814aa&shareId=ecd80884-3b60-48af-943c-bdb7841a9387'
         },
         {
             id: 3,
-            name: 'Salted Almonds',
-            category: 'Flavored Nuts',
-            description: 'Crunchy California almonds with a perfect balance of salt.',
-            price: '₹699',
-            image: '/images/Gemini_Generated_Image_hnaxxjhnaxxjhnax (1).png',
-            badge: 'New'
+            name: 'RAJ Organic 7 Seeds Mix',
+            category: 'Seeds',
+            description: 'RAJ Organic 7 Seeds Mix is a nourishing blend crafted for mindful snacking. Packed with nature’s finest like pumpkin seeds , sunflower seeds, flex seeds, watermelon seeds , black seeds and other wholesome varieties.',
+            price: '',
+            image: '/images/p3-alt.png',
+            badge: 'New',
+            noonLink: 'https://www.noon.com/uae-en/organic-7-seeds-roasted-200-grm-healthy-superfood-blend-rich-in-protein-fiber-antioxidants-energy-immunity-booster-200g/ZBF6FEA3F906F143DF557Z/p/?o=bb54291da3f2feba'
         },
         {
             id: 4,
-            name: 'Spicy Peri Peri Cashews',
+            name: 'RAJ Assorted Flavored Almonds',
             category: 'Flavored Nuts',
-            description: 'Bold and spicy peri peri seasoned cashews for the adventurous palate.',
-            price: '₹649',
-            image: '/images/Gemini_Generated_Image_hnaxxjhnaxxjhnax (2).png',
-            badge: 'Trending'
+            description: 'RAJ Assorted Flavored Almonds blend tradition with indulgence. Each almond is delicately coated in vibrant flavors ( chaat masala, black paper, Bbq , Za’atar , cheese and more, offering a luxurious taste experience in every bite.',
+            price: '',
+            image: '/images/p4-alt.png',
+            badge: 'Trending',
+            noonLink: 'https://www.noon.com/uae-en/premium-crunchy-mixed-flavored-almonds-peeled-200-grm-exotic-flavours-like-zaatar-black-pepper-chilly-bbq-etc-crunchy-healthy-snack-for-parties-gifting-protein-rich-vegan-gluten-free/ZB3BA29F631B21C94854BZ/p/?o=ec2d1e50987f00ca'
         },
         {
             id: 5,
-            name: 'Caramelized Walnuts',
+            name: 'RAJ Assorted Flavored Cashews',
             category: 'Flavored Nuts',
-            description: 'Rich walnuts coated with sweet caramel glaze.',
-            price: '₹799',
-            image: '/images/Gemini_Generated_Image_9x94og9x94og9x94.png',
-            badge: 'Premium'
+            description: 'RAJ Assorted Flavored Cashews bring a burst of color and flavor to every celebration. Coated in vibrant spices and seasonings, like za’atar, cheese, BBQ , chaat masala , Black paper and more, these premium cashews are as visually delightful as they are delicious.',
+            price: '',
+            image: '/images/p5-alt.png',
+            badge: 'Premium',
+            noonLink: 'https://www.noon.com/uae-en/premium-assorted-cashews-big-jumbo-size-in-7-delicious-flavours-200-grm-luxury-flavours-like-zaatar-black-pepper-chilly-bbq-etc-crunchy-healthy-snack-for-parties-gifting-protein-rich-vegan-gluten-free/ZE6873B533D8BDC890593Z/p/?o=e7c357276f4d1d9e'
         },
         {
             id: 6,
-            name: 'Mixed Dry Fruits',
-            category: 'Assorted',
-            description: 'A delightful mix of premium dry fruits and nuts.',
-            price: '₹899',
-            image: '/images/Gemini_Generated_Image_1cepw61cepw61cep.png',
-            badge: 'Value Pack'
+            name: 'RAJ Roasted Cashews',
+            category: 'Flavored Nuts',
+            description: 'RAJ Roasted Cashews deliver bold flavor with a golden crunch. Carefully roasted to perfection, each cashew offers a warm, nutty bite that’s both satisfying and premium.',
+            price: '',
+            image: '/images/p6-alt.png',
+            badge: 'Value Pack',
+            noonLink: 'https://www.noon.com/uae-en/salted-roasted-cashew-nuts-jumbo-size-200-grm-i-tasty-healthy-nut-snack-premium-quality/Z069F7BC2FDF2E122D289Z/p/?o=e2afc8107bf1351a'
         }
     ]
 
@@ -75,8 +81,9 @@ const Products = () => {
                                 <h3 className="product-name">{product.name}</h3>
                                 <p className="product-description">{product.description}</p>
                                 <div className="product-footer">
-                                    <span className="product-price">{product.price}</span>
-                                    <a href="https://noon.com" target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-small">Buy Now</a>
+                                    {/* <span className="product-price">{product.price}</span> */}
+                                    <a href={product.noonLink} target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-small">Buy Now</a>
+                                    {/* <a href="" target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-small">Expore More</a> */}
                                 </div>
                             </div>
                         </div>

@@ -4,7 +4,7 @@ const About = () => {
             <div className="about-container">
                 <div className="about-image-container">
                     <img 
-                        src="images/Gemini_Generated_Image_f4kw5kf4kw5kf4kw.png" 
+                        src="images/story1.png" 
                         alt="About Raj Saffron & Nuts" 
                         className="about-image"
                     />
@@ -17,9 +17,9 @@ const About = () => {
                         the best products, we take pride in our commitment to excellence.
                     </p>
                     <p>
-                        Every product we offer is carefully handpicked, ensuring that you receive nothing but 
-                        the best. Our saffron comes from the pristine valleys of Kashmir, while our nuts are 
-                        sourced from the finest farms around the world.
+                        Each of our products is meticulously handpicked to guarantee you receive only the finest 
+                        quality. Our Super Negin saffron is cultivated in the renowned Eyjan agricultural lands 
+                        of Iran, and our premium nuts are sourced from the best farms across the globe.
                     </p>
                     <p>
                         We believe in maintaining the traditional methods of processing while incorporating 
