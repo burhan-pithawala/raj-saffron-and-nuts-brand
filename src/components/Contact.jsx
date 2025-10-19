@@ -11,7 +11,7 @@ const Contact = () => {
                     <div className="contact-item">
                         <div className="contact-icon"><FaMailBulk/></div>
                         <div className="contact-label">Email</div>
-                        <div className="contact-value">info@rajsaffron.com</div>
+                        <div className="contact-value">rajsaffronandnuts@gmail.com</div>
                     </div>
 
                     <div className="contact-item">
